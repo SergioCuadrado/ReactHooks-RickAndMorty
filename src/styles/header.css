@@ -1,0 +1,45 @@
+.Header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header h1 {
+  margin: 20px;
+  align-self: center;
+}
+
+.backgroundDark h1 {
+  color: #00ffff;
+}
+
+.Header .button {
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  align-self: center;
+
+  border-radius: 2em;
+  border: none;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.backgroundDark .button {
+  background-color: #00ffff;
+}
+
+.backgroundLight .button {
+  background-color: #efefef;
+}
+
+.backgroundLight .button:hover {
+  background-color: #00ffff;
+}
+
+.backgroundDark .button:hover {
+  background-color: #efefef;
+}
